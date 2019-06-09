@@ -26,5 +26,9 @@ You can use   #  lsmod | grep bbr # to see if it‘s started
 return tcp_bbrplus            20480  8
 
 If any of the above items occur, the startup is successful.
+
+
+一键安装脚本：
+wget -O /usr/bin/sprov-ui -N --no-check-certificate https://github.com/thofd/sprov-ui/raw/master/sprov-ui.sh && chmod +x /usr/bin/sprov-ui && sprov-ui
 ______________________________________
 Statement: Anyone who uses this script in illegal ways has nothing to do with me and I am not liable for any major legal responsibility.
